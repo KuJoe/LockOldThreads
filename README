@@ -1,0 +1,27 @@
+LockOldThreads 1.0 MyBB Plugin by KuJoe <www.jmd.cc>
+Hey, this looks pretty similar to my AutoMove plugin doesn't it? :P
+
+\\What it does:\\
+_\\_____________\\_
+Automatically locks all threads on your board or specific forums after reaching a certain age based on the time of the last reply. This is meant to prevent users from resurrecting old threads (necroposting).
+
+\\How to install:\\
+_\\_______________\\_
+1) Upload the included \inc\ folder into your forums root directory (this will result in 1 lot.php file in your \plugins\ directory and 1 in your \tasks\ directory).
+2) Activate the plugin and configure the settings to your liking under Board Settings.
+3) OPTIONAL: Adjust the task run time. Currently it is configured to run at 12:01AM each day, but you may choose to have this run more or less based on your preference.
+
+\\How to update:\\
+_\\_______________\\_
+1) Disable current version of the plugin (this will delete your settings so write them down or something).
+2) Upload the included \inc\ folder into your forums root directory (this will result in 1 lot.php file in your \plugins\ directory and 1 in your \tasks\ directory).
+3) Activate the plugin and configure the settings to your liking under Board Settings.
+4) OPTIONAL: Adjust the task run time. Currently it is configured to run at 12:01AM each day, but you may choose to have this run more or less based on your preference.
+
+\\Additional Info:\\
+_\\________________\\_
+The majority of this code was copied from my AutoMove plugin. Work smart, not hard! You are free to use this code and plugin as long as it follows the Expat "MIT" License requirements and restrictions.
+
+\\Change Log:\\
+_\\___________\\_
+1.0- Initial Release
